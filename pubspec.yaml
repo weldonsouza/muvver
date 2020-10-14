@@ -1,0 +1,56 @@
+name: muvver
+description: A new Flutter application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.16.1
+  http: ^0.12.2
+  cupertino_icons: ^1.0.0
+  grouped_buttons: ^1.0.4
+  material_design_icons_flutter: ^4.0.5655
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Black.TTF
+        - asset: assets/fonts/Roboto/Roboto-BlackItalic.TTF
+        - asset: assets/fonts/Roboto/Roboto-Bold.TTF
+        - asset: assets/fonts/Roboto/Roboto-BoldItalic.TTF
+        - asset: assets/fonts/Roboto/Roboto-Italic.TTF
+        - asset: assets/fonts/Roboto/Roboto-Light.TTF
+        - asset: assets/fonts/Roboto/Roboto-LightItalic.TTF
+        - asset: assets/fonts/Roboto/Roboto-Medium.TTF
+        - asset: assets/fonts/Roboto/Roboto-MediumItalic.TTF
+        - asset: assets/fonts/Roboto/Roboto-Regular.TTF
+        - asset: assets/fonts/Roboto/Roboto-Thin.TTF
+        - asset: assets/fonts/Roboto/Roboto-ThinItalic.TTF
+    - family: TitilliumWeb
+      fonts:
+        - asset: assets/fonts/TitilliumWeb/TitilliumWeb-Black.TTF
+        - asset: assets/fonts/TitilliumWeb/TitilliumWeb-Bold.TTF
+        - asset: assets/fonts/TitilliumWeb/TitilliumWeb-BoldItalic.TTF
+        - asset: assets/fonts/TitilliumWeb/TitilliumWeb-ExtraLight.TTF
+        - asset: assets/fonts/TitilliumWeb/TitilliumWeb-ExtraLightItalic.TTF
+        - asset: assets/fonts/TitilliumWeb/TitilliumWeb-Italic.TTF
+        - asset: assets/fonts/TitilliumWeb/TitilliumWeb-Light.TTF
+        - asset: assets/fonts/TitilliumWeb/TitilliumWeb-LightItalic.TTF
+        - asset: assets/fonts/TitilliumWeb/TitilliumWeb-Regular.TTF
+        - asset: assets/fonts/TitilliumWeb/TitilliumWeb-SemiBold.TTF
+        - asset: assets/fonts/TitilliumWeb/TitilliumWeb-SemiBoldItalic.TTF
+
+  assets:
+    - assets/icon/
